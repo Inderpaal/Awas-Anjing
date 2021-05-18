@@ -1,0 +1,42 @@
+
+      body {
+  background-image: url('https://www.dropbox.com/s/s0rnklr4kyh8hp0/WhatsApp%20Image%202021-05-17%20at%203.10.14%20PM.jpeg?raw=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.topnav a { 
+  float: right;
+  color: #5078FE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+div.fixed {
+  color:white;
+  position: fixed; 
+  bottom: 35%;
+  left: 10%;
+  right: 0
+  width: 300;
+}
