@@ -1,16 +1,12 @@
 
-      body {
-  background-image: url('https://www.dropbox.com/s/s0rnklr4kyh8hp0/WhatsApp%20Image%202021-05-17%20at%203.10.14%20PM.jpeg?raw=1');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+body {
+  background-image: url('Background-\ Children.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
 }
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 
 
 .topnav a { 
@@ -20,6 +16,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-top: 0cm;
 }
 
 .topnav a:hover {
@@ -32,11 +29,33 @@ body {
   color: white;
 }
 
-div.fixed {
-  color:white;
+p1 {
+  text-align: center;
+  font-size:xx-large;
+  color:black;
   position: fixed; 
-  bottom: 35%;
-  left: 10%;
-  right: 0
+  bottom: 30%;
+  left: 5%;
   width: 300;
+}
+
+
+
+p2 {
+  align-self: center;
+  position: fixed;
+  font-size: 60px;
+  bottom: 30%;
+  right: 5%;
+}
+
+#joke{
+  text-align: center;
+  position: fixed;
+  bottom: 48%;
+  left: 45%;
+  background-color: cornsilk;
+  color: black;
+  font: size 6px;;
+  width: 10px;
 }
