@@ -49,6 +49,11 @@ p2 {
   right: 5%;
 }
 
+.logo{
+  text-decoration: none;
+  color: black;
+}
+
 #joke{
   text-align: center;
   position: fixed;
